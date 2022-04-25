@@ -1,0 +1,26 @@
+.questionWrapper {
+    width: 40%;
+    height: 100vh;
+    border-right: 2px solid black;
+}
+
+.menuWrapper {
+    display: flex;
+    margin: 0px;
+}
+
+.menuWrapper div {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(249, 248, 247);
+    padding: 15px;
+    margin: 0px;
+    border-top: 0.5px solid rgb(225, 225, 225);
+    border-left: 0.5px solid rgb(225, 225, 225);
+}
+
+.active {
+    background-color: white !important;
+}
